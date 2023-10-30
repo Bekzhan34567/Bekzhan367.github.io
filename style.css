@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    font-family:fantasy;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff7f50; /* Color when hovered (e.g., coral) */
+}
+
+/* Home section styles */
+#home {
+    padding: 40px;
+    background-color: rgb(132, 115, 115);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+.intro p {
+    font-size: 18px;
+    color: rgb(207, 59, 59);
+}
+
+.random-photo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Color for the text in the "home" section */
+#home .intro, #home .intro p {
+    color: #333;
+}
+
+/* Add more CSS styling as needed for other sections */

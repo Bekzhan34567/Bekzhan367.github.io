@@ -1,0 +1,22 @@
+/* Styles for the "About" section */
+#about {
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    padding: 40px;
+    align-items: center;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    color: rgb(167, 28, 28); /* Heading color */
+}
+
+.about-content p {
+    font-size: 18px;
+    color: rgb(124, 97, 34); /* Text color */
+    margin-top: 20px;
+}
